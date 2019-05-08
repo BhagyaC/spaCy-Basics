@@ -20,3 +20,5 @@ echo "export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3" >> ~/.bash_profile
 echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bash_profile
 
 workon cv Hence the virtual environment well setted
+
+python -m spacy download en    //install spaCy and its English-language model before proceeding further
